@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122630" started-at="2017-10-26T13:08:46Z" finished-at="2017-10-26T13:10:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122630" started-at="2017-10-26T13:08:46Z" finished-at="2017-10-26T13:10:48Z">
+      <class name="com.qaprosoft.carina.demo.testAutoBaraholka">
+        <test-method status="PASS" signature="executeBeforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeBeforeTestSuite" is-config="true" duration-ms="2643" started-at="2017-10-26T15:08:43Z" finished-at="2017-10-26T15:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1202c31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestSuite -->
+        <test-method status="PASS" signature="executeBeforeTestClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeBeforeTestClass" is-config="true" duration-ms="1" started-at="2017-10-26T15:08:46Z" finished-at="2017-10-26T15:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1202c31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestClass -->
+        <test-method status="PASS" signature="executeBeforeTestMethod(org.testng.xml.XmlTest, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeBeforeTestMethod" is-config="true" duration-ms="5" started-at="2017-10-26T15:08:49Z" finished-at="2017-10-26T15:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Default test" verbose:2[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.qaprosoft.carina.demo.testAutoBaraholka]  packages:] ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.testAutoBaraholka.filterCars(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1202c31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestMethod -->
+        <test-method status="PASS" signature="filterCars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="filterCars" duration-ms="99033" started-at="2017-10-26T15:08:49Z" description="JIRA#AUTO-10011" data-provider="SingleDataProvider" finished-at="2017-10-26T15:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2009]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterCars -->
+        <test-method status="PASS" signature="executeAfterTestMethod(org.testng.ITestResult)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeAfterTestMethod" is-config="true" duration-ms="19831" started-at="2017-10-26T15:10:29Z" finished-at="2017-10-26T15:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterCars status=SUCCESS method=testAutoBaraholka.filterCars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestMethod -->
+        <test-method status="PASS" signature="executeAfterTestClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeAfterTestClass" is-config="true" duration-ms="1" started-at="2017-10-26T15:10:48Z" finished-at="2017-10-26T15:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1202c31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestClass -->
+        <test-method status="PASS" signature="executeAfterTestSuite(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.testAutoBaraholka@14c508a]" name="executeAfterTestSuite" is-config="true" duration-ms="586" started-at="2017-10-26T15:10:49Z" finished-at="2017-10-26T15:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1202c31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestSuite -->
+      </class> <!-- com.qaprosoft.carina.demo.testAutoBaraholka -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
